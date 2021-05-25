@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class Login {
     public String baseUrl = "https://staging.joinswoop.com/login";
     public WebDriver driver ;
-    String driverPath = "G:\\chromedriver.exe";
+    String driverPath = "/tmp/chromedriver";
     @BeforeTest
     public void launchBrowser() {
         System.out.println("launching headless browser");
